@@ -2,7 +2,8 @@ import { BiLeftIndent } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
+    
       <BiLeftIndent />
     </div>
   )
