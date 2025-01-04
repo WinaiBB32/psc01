@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-      <div>สวัสดีffffffffffd</div>
+      <div style={{fontSize: '20px'}}>สวัสดีffffffffffd</div>
     </>
   );
 }
