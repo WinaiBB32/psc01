@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #f1f1f1;
+}
 
 
 /* HEADER STYLES */
@@ -109,13 +112,13 @@ main{
   margin: 0 auto;
   padding: 0 20px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
- 
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 200px;
   gap: 20px;
   
 }
 
-.card{
+.card {
   width: 100%;
   height: 100%;
   background: #fff;
@@ -123,19 +126,46 @@ main{
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
   cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-10px);
   transition: 0.5s;
   color: #fff;
   background: #0004ff;
 }
+
+.card .menu-items {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card .menu-items .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .menu-items .icons svg {
+  gap: 10px;
+  width: 50px;
+  height: 100%;
+}
+
+.card .menu-items span {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+
 
 
 

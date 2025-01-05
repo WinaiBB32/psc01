@@ -13,7 +13,16 @@ const datamenu = () => {
             path: "/",
           },
           {
-            name: "รายการครุภัณฑ์",
+            name: "ระบบเบิกวัสดุสิ้นเปลือง",
+            icon: <BiSolidFile />,
+          },
+          
+          {
+            name: "ระบบยืม - คืนครุภัณฑ์",
+            icon: <BiSolidFile />,
+          },
+          {
+            name: "ระบบอนุญาต",
             icon: <FaListUl />,
             path: "/list",
           },
