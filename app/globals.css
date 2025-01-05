@@ -110,13 +110,15 @@ main{
 .container{
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 150px;
   padding: 0 20px;
   display: grid;
   justify-content: center;
   grid-template-columns: 200px 200px 200px 200px;
   gap: 20px;
-  
 }
+
+
 
 .card {
   width: 200px;
@@ -135,6 +137,7 @@ main{
   color: #fff;
   background: #0004ff;
 }
+
 
 .card .menu-items {
   margin: 20px 0;
@@ -163,6 +166,29 @@ main{
   font-size: 16px;
   text-decoration: none;
   font-weight: 500;
+}
+
+@media screen and (max-width: 900px){
+  .container{
+    grid-template-columns: 200px 200px 200px;
+  }
+  
+}
+@media screen and (max-width: 700px){
+  .container{
+    grid-template-columns: 200px 200px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    grid-template-columns: auto;
+    
+  }
+  .card{
+    width: 300px;
+    height: 200px;
+}
 }
 
 
