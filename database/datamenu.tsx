@@ -15,11 +15,13 @@ const datamenu = () => {
           {
             name: "ระบบเบิกวัสดุสิ้นเปลือง",
             icon: <BiSolidFile />,
+             path: "/"
           },
           
           {
             name: "ระบบยืม - คืนครุภัณฑ์",
             icon: <BiSolidFile />,
+             path: "/"
           },
           {
             name: "ระบบอนุญาต",

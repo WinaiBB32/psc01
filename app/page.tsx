@@ -1,5 +1,6 @@
 
 import datamenu from "@/database/datamenu";
+import Link from "next/link";
 
 const menuItems = datamenu();
 
@@ -14,7 +15,7 @@ export default function Home() {
                 <div className="icons">
                   {item.icon}
                 </div>
-                <span>{item.name}</span>
+                <Link href={item.path}><span>{item.name}</span></Link>
               </div>
             
           </div>
