@@ -157,9 +157,11 @@ main{
   height: 100%;
 }
 
-.card .menu-items span {
-  margin-top: 10px;
-  font-size: 20px;
+.card .menu-items a{
+  margin-top: 20px;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
   font-weight: 500;
 }
 
