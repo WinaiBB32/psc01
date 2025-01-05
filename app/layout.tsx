@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Prompt } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const prompt = Prompt({
   weight: "400",
@@ -25,7 +26,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${prompt.className} ${prompt.className}`}>
         <Navbar />
-        {children}
+        <main>
+          {children}
+        </main>
+        <div className="footer">
+          <Footer />
+        </div>
       </body>
     </html>
   );
