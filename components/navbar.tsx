@@ -14,8 +14,8 @@ const Navbar = () => {
                     <Image src={Logo} alt="logo" />
                 </Link>
                 <div className="menu-back">ระบบครุภัณฑ์</div>
-            </div>
-      
+      </div>
+     
       <div className="smart-icons">
         <span className="notification">
         <BiSolidBell />
@@ -25,6 +25,7 @@ const Navbar = () => {
           <button><Image src={useprofile} alt="userimage" ></Image></button>
         </div>
       </div>
+      <BiLeftIndent />
     </div>
   )
 }
